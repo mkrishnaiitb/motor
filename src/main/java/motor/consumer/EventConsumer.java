@@ -1,4 +1,4 @@
-package motor;
+package motor.consumer;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -15,7 +15,7 @@ import java.util.Properties;
 
 public class EventConsumer {
 
-    public static void main(String[] args) {
+    public static void eventConsumerInitialise() {
         // Kafka consumer configuration settings KrishnaTest.motor.heat
         String topicName = "health.motor.heat";
         Properties props = new Properties();
