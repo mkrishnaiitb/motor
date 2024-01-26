@@ -2,7 +2,7 @@ package motor.notifier;
 
 public class EmailServer {
     public static void sendTestEmail() {
-        final String GACCOUNT_APP_PASSWORD = "ynknziyaysbsqlto";
+        final String GACCOUNT_APP_PASSWORD = "fake-password";
         try {
             EmailUtil.sendEmail("smtp.gmail.com", "587", "mkrishna.uber@gmail.com", 
                                 GACCOUNT_APP_PASSWORD, "badri.krishna@gmail.com", 
